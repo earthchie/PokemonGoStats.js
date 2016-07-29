@@ -30,14 +30,14 @@ function getBaseStats(DexId){
 function maxCP(DexId,IVSta,IVAtk,IVDef,PlayerLevel){
 
     var baseStats = getBaseStats(DexId);
-    PlayerLevel = PlayerLevel+1.5;
-    if(PlayerLevel > 40){
-        PlayerLevel = 40;
+    PokemonMaxLevel = PlayerLevel+1.5;
+    if(PokemonMaxLevel > 40){
+        PokemonMaxLevel = 40;
     }
     BaseSta = baseStats.sta;
     BaseAtk = baseStats.atk;
     BaseDef = baseStats.def;
-    var CP = (BaseAtk + IVAtk) * Math.sqrt(BaseDef + IVDef) * Math.sqrt(BaseSta + IVSta) * Math.pow(CPM(PlayerLevel+1.5),2) / 10;
+    var CP = (BaseAtk + IVAtk) * Math.sqrt(BaseDef + IVDef) * Math.sqrt(BaseSta + IVSta) * Math.pow(CPM(PokemonMaxLevel),2) / 10;
 
     if(CP < 10){
         CP = 10;
