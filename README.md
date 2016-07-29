@@ -15,7 +15,7 @@ console.log(
     IVSta = 15, // Individual Stamina Value
     IVAtk = 15, // Individual Attack Value
     IVDef = 15, // Individual Defense Value
-    PlayerLevel = 40 // Player's Current Level
+    PlayerLevel = 38 // Player's Current Level
   )
 );
 </script>
