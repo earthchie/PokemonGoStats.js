@@ -30,6 +30,10 @@ function getBaseStats(DexId){
 function maxCP(DexId,IVSta,IVAtk,IVDef,PlayerLevel){
 
     var baseStats = getBaseStats(DexId);
+    PlayerLevel = PlayerLevel+1.5;
+    if(PlayerLevel > 40){
+        PlayerLevel = 40;
+    }
     BaseSta = baseStats.sta;
     BaseAtk = baseStats.atk;
     BaseDef = baseStats.def;
