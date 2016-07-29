@@ -31,8 +31,8 @@ function maxCP(DexId,IVSta,IVAtk,IVDef,PlayerLevel){
 
     var baseStats = getBaseStats(DexId);
     PokemonMaxLevel = PlayerLevel+1.5;
-    if(PokemonMaxLevel > 40.5){
-        PokemonMaxLevel = 40.5;
+    if(PokemonMaxLevel > 40){
+        PokemonMaxLevel = 40;
     }
     BaseSta = baseStats.sta;
     BaseAtk = baseStats.atk;
