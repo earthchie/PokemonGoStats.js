@@ -21,5 +21,6 @@ console.log(
 </script>
 ```
 
-## Supoort
-First Generation Pokemons (Dex 001-151)
+## Limitation
+- Player level max at 40
+- First Generation Pokemons only (Dex 001-151)
