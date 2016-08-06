@@ -1,5 +1,5 @@
 # PokemonGoStats.js
-JavaScript functions used to calculate Pokemon Stats CP in Pokemon Go game.
+JavaScript functions used to calculate Pokemon Stats in Pokemon Go game.
 
 For IVs part. Use this API to retrive those values https://github.com/tejado/pgoapi.
 
