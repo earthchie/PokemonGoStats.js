@@ -13,9 +13,9 @@ var Vaporeon = new PokemonGoStats(134);
 
 console.log(
   Vaporeon.calcStats(
-    IV_Stamina = 15, // Individual Stamina Value
-    IV_Attack = 15, // Individual Attack Value
-    IV_Defense = 15, // Individual Defense Value
+    IV_Stamina = 15,
+    IV_Attack = 15,
+    IV_Defense = 15,
     CP = 2595
   )
 ); // {HP: 208, Atk: 152, Def: 138}
