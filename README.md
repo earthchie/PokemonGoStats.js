@@ -8,40 +8,41 @@ For IVs part. Use this API to retrive those values https://github.com/tejado/pgo
 ```HTML
 <script src="PokemonGoStats.js" type="text/javascript"></script>
 <script type="text/javascript">
+
 var Vaporeon = new PokemonGoStats(134);
 
 console.log(
   Vaporeon.calcStats(
-    IVSta = 15, // Individual Stamina Value
-    IVAtk = 15, // Individual Attack Value
-    IVDef = 15, // Individual Defense Value
+    IV_Stamina = 15, // Individual Stamina Value
+    IV_Attack = 15, // Individual Attack Value
+    IV_Defense = 15, // Individual Defense Value
     CP = 2595
   )
 ); // {HP: 208, Atk: 152, Def: 138}
 
 console.log(
   Vaporeon.calcLevel(
-    IVSta = 15, // Individual Stamina Value
-    IVAtk = 15, // Individual Attack Value
-    IVDef = 15, // Individual Defense Value
+    IV_Stamina = 15,
+    IV_Attack = 15,
+    IV_Defense = 15,
     CP = 2595
   )
 ); // 34.5
 
 console.log(
   Vaporeon.calcCP(
-    IVSta = 15, // Individual Stamina Value
-    IVAtk = 15, // Individual Attack Value
-    IVDef = 15, // Individual Defense Value
+    IV_Stamina = 15,
+    IV_Attack = 15,
+    IV_Defense = 15,
     PokemonLevel = 34.5
   )
 ); // 2595
 
 console.log(
   Vaporeon.calcMaxCP(
-    IVSta = 15, // Individual Stamina Value
-    IVAtk = 15, // Individual Attack Value
-    IVDef = 15, // Individual Defense Value
+    IV_Stamina = 15,
+    IV_Attack = 15,
+    IV_Defense = 15,
     PlayerLevel = 40
   )
 ); // 2816
