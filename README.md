@@ -53,3 +53,6 @@ console.log(
 ## Limitation
 - Both Player level and Pokemon level max at 40
 - First Generation Pokemons only (Dex 001-151)
+
+## License
+WTFPL 2.0 http://www.wtfpl.net/
