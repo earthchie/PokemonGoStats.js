@@ -47,11 +47,11 @@ PokemonGoStats.findPokemonLevelFromCPM = function(CPM){
   var index = 0;
   for(var i in this.CPMs){
     if(this.CPMs[i]>=CPM){
-        index = i-1;
+        index = i;
       break;
     }
   }
-  return (+index+3)/2;
+  return (+index+2)/2;
 }
 
 /************************\
